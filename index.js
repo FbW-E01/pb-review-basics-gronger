@@ -27,29 +27,29 @@ let emptyTempLitString = ``;
 // 7. Make a variable and assign a boolean to that variable using a template literal. Make sure that variable *can* be changed.
 
 
-let booleanTempLit = `${true}`;
+let booleanTempLit = 3 ===  "Hello";
 
 console.log(booleanTempLit);
 
 
 // 8. Make a variable and assign a boolean to that variable using a template literal. Make sure that variable can not be changed.
 
-const constBooleanTempLit = `a non-empty string has truthy value`;
+const constBooleanTempLit = 0 === 1;
 
 console.log(constBooleanTempLit);
 
 
 // 9. Print the `type` of a variable that has a number value.
 
-console.log(evenNum);
+console.log(typeof evenNum);
 
 // 10. Print the `type` of a variable that has a string value.
 
-console.log(sinlgeQuotesString);
+console.log(typeof sinlgeQuotesString);
 
 // 11. Print the `type` of a variable that has a boolean value.
 
-console.log(booleanTempLit);
+console.log(typeof booleanTempLit);
 
 
 
